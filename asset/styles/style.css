@@ -1,0 +1,489 @@
+/*VISTA EN MOVILES*/
+
+/*HTML*/
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+/* LANGUAGE */
+
+.en {
+  display: none;
+}
+
+.enbutton{
+  display: none;
+}
+
+.es {
+  display: none;
+}
+
+.esbutton {
+  display: none;
+}
+
+/*END OF IT*/
+
+body{
+    font-family: 'Abel', sans-serif;
+    overflow-x: hidden; 
+    margin: 0px; 
+    padding: 0px;
+}
+
+figure {
+    margin: 0;
+    display: inline;
+}
+
+small{
+    font-style: italic;
+    font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    display: block;
+}
+
+h6{
+    font-weight: bold;
+}
+
+
+
+p{
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+ul ,ul li{
+    list-style-image: url('../images/icons/vineta.png') !important;
+}
+
+iframe{
+    border: 0px none transparent;
+}
+
+hr{
+    width: 180px;
+    background-color: white;
+    height: 1px;
+    margin: -20px auto 0 auto;
+}
+
+/*HEADER*/
+.header-nav{
+    justify-content: space-between !important;
+}
+
+.menu-icon{
+    display: flex !important;
+    margin: 0 10px !important;
+}
+
+ul#slide-out li a{
+    height: 65px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.white-menu-icon{
+    margin: 30px 30px 0 0;
+}
+
+/*MAIN*/
+/*MAIN-BANNER*/
+.banner-main{
+    background: url('../images/banners/main-banner.jpg');
+    background-size: cover;
+}
+
+.banner-main h2, .servicios-banner h2{
+    font-size: 2.92rem !important; 
+}
+
+.banner-main h4{
+    font-size: 1.64rem !important;
+}
+
+.more-btn{
+    height: 66px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    border-radius: 34px;
+    font-size: 33.5px;
+    display: block;
+}
+
+/*MAIN-CARACTERISTICAS-1*/
+.caracteristicas-1 h3{
+    font-size: 2.28rem !important;
+}
+
+/*MAIN-SERVICIOS*/
+.servicios-banner{
+    background: url('../images/banners/servicios-banner.jpg');
+    background-size: cover;
+}
+
+
+/*MAIN-CARACTERISTICAS-2*/
+.banner-caracteristicas-2{
+    background: url('../images/banners/caracteristicas-2.png');
+    background-size: cover;
+}
+
+.banner-caracteristicas-2 ul li{
+    margin-top: 3rem;
+    list-style-image: none !important;
+}
+
+.banner-caracteristicas-2 h3{
+    font-size: 1.64rem !important;
+}
+
+/*MAIN-NOSOTROS*/
+.banner-nosotros{
+    background: url('../images/banners/nosotros-banner.jpg');
+    background-size: cover;
+}
+
+.banner-nosotros ul{
+    margin: 0px;
+    margin-left: 38px;
+}
+
+/*MAIN-ENCUENTRANOS*/
+
+/*MAIN-MAP*/
+.map{
+    height:400px;
+    width: 100%;
+}
+
+/*MAIN-EXPERIENCIA*/
+.banner-experiencia{
+    background: url('../images/banners/experiencia-banner.jpg');
+    background-size: cover;
+}
+
+.banner-experiencia ul{
+    margin-left: 38px;
+}
+
+.banner-experiencia h2{
+    font-size: 2.92rem !important;
+}
+
+/*MAIN-CONTACTO*/
+form .contacto-field{
+    border-radius: 50px;
+    border: white 3px solid;
+    position: relative;
+    border-radius: 60px;
+    border: white 3px solid;
+    height: 66px;
+    background-color: #bababa;
+}
+
+form .contacto-field .contacto-img{
+    margin-left: -1px;
+}
+
+form .contacto-field .contacto-input{
+    position: absolute;
+    height: 4rem;
+    width: 78%;
+    margin: 0 0 0 10px;
+    border-bottom: none;
+}
+
+form .contacto-field .contacto-input:focus{
+    border-bottom: none !important;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.send-btn{
+    border-radius: 50px;
+    height: 48px;
+    width: 144px;
+}
+
+span.send-btn{
+    padding: 15px
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+input::-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+input::-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+/*FOOTER*/
+.footer-logo{
+    width: 250px;
+    margin-bottom: 0.5em;
+}
+
+
+/*OTROS*/
+.negro-1{
+    background-color: #313131;
+}
+
+.rojito-degradadito{
+    background-image: linear-gradient(328deg, #981123, #a8091f)
+}
+
+.gris-text{
+    color:#97979d;
+}
+
+.gris{
+    background-color: #97979d;
+}
+
+.row.non-separation, .non-separation {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row.separation-1, .separation-1{
+    margin-bottom: 1.5em;
+}
+
+.row.separation-2, .separation-2{
+    margin-top: 2em;
+}
+
+.section-title{
+    display: block
+}
+
+.hideb, .hideb-2{
+    margin: 0 auto;
+    width: 180px;
+    display: block;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.show{
+    opacity: 1;
+}
+
+.relative{
+    position: relative;
+}
+
+
+/*MATERIALIZE*/
+.row{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.container .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.valign-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 95%;
+}
+
+nav .container, nav .nav-wrapper{
+    height: 100%;
+}
+
+#sidenav-overlay{
+    background-color: transparent;
+    z-index: 1;
+}
+
+ul.side-nav{
+    background-image: linear-gradient(328deg, #6b1726, #8e1727);
+}
+
+ul.side-nav li{
+    list-style-image: none !important;
+}
+
+.align-left{
+    text-align: left !important;
+}
+
+
+/*DEAFAULT*/
+p.default{
+    margin:1em 0;
+}
+
+ul.default ,ul li.default {
+    list-style-image: none !important;
+}
+
+
+/*DISPOSITIVOS MAS GRANDES*/
+/*TABLET*/
+@media screen and (min-width:601px){
+    .hideb, .hideb-2{
+        display: inline;
+        margin-top: 0px;
+        position: absolute;
+        right: 30px;
+        top: 0;
+    }
+
+    .container{
+        width: 92%;
+    }
+
+    .footer-logo{
+        width: auto;
+    }
+
+    .banner-caracteristicas-2 h3{
+        font-size: 2.28rem !important;
+    }
+
+    .caracteristicas-1 h3{
+        font-size: 2.92rem !important;
+    }
+
+    .servicios-banner h2, .banner-experiencia h2{
+        font-size: 3.56rem !important; 
+    }
+}
+
+/*DESKTOP & LAPTOP*/
+@media screen and (min-width:993px){
+
+    /*HTML*/
+    p{
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    /*HEADER*/
+    .main-header{
+        min-height: 11vh;
+    }
+
+    .header-logo{
+        height: 72px;
+        width: 300px;
+    }
+
+    header .container{
+        width: 98% !important;
+    }
+
+    /*MAIN*/
+    .banner-main, .caracteristicas-1, .servicios-banner, .banner-caracteristicas-2, .banner-nosotros, .banner-experiencia{
+        min-height: 89vh;
+    }
+
+    .banner-main h2{
+        font-size: 3.56rem !important; 
+    }
+
+    .banner-main h4{
+        font-size: 2.28rem !important;
+    }
+
+    .banner-caracteristicas-2 h3{
+        font-size: 2.92rem !important;
+    }
+
+    .servicios-text{
+        font-size: 20px !important;
+        line-height: 1.1;
+    }
+
+    .caracteristicas-2-text-2{
+        margin-left: 6%;
+    }
+
+    .caracteristicas-2-text-3{
+        margin-left: 16%;
+    }
+
+    .caracteristicas-2-text-4{
+        margin-left: 26%;
+    }
+
+    .caracteristicas-2-text-5{
+        margin-left: 36%;
+    }
+
+    .encuentranos{
+        min-height: 58vh;
+    }
+
+    .map{
+        height: 38vh;
+    }
+
+    .contacto{
+        min-height: 69vh;
+    }
+
+    .send-btn{
+        height: 55px;
+        width: 180px;
+    }
+
+    .hideb, .hideb-2{
+        display: inline;
+        position: absolute;
+        right: 240px;
+    }
+
+    form div.col.left, div.col.left{
+        padding-right:3rem;
+    }
+
+    form div.col.right, div.col.right{
+        padding-left:3rem;
+    }
+
+    .banner-nosotros ul{
+        margin: 0px;
+    }
+
+    .banner-experiencia ul{
+        margin: 0px;
+    }
+
+    /*MATERIALIZE*/
+    .container{
+        width: 90%;
+    }
+
+    .align-left{
+        margin-left: 5%;
+    }
+
+    /*FOOTER*/
+    .footer-principal{
+        min-height: 20vh;
+    }
+}
